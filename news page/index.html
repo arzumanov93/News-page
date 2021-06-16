@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News page</title>
+</head>
+<body>
+    <section class="section">
+        <div class="news">
+            <div class="news__item">
+                <h3 class="news__title">
+                    Новость №1
+                </h3>
+                <h1 class="news__preview">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </h1>
+                <div class="news__photo">
+                    <img src="news_1.jpg" alt="">
+                </div>
+            </div>
+
+        
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Добавить новость</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Название</label>
+                    <input id="formName" type="text" name="news" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Анонс</label>
+                    <input id="formName" type="text" name="preview" class="form__input">
+        <!--/        </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form__label">Анонс</label>
+                    <textarea id="formMessage" type="text" name="message" class="form__input"></textarea>
+                </div> -->
+                <div class="form__item">
+                    <div class="form__label">Прикрепить фото</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input name="file" accept=".jpg, .png, .gif" type="file" class="file__input">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="form__button">Добавить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
