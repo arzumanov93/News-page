@@ -72,4 +72,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     getResponse();
+
+    const title = document.querySelector('#formTitle'),
+          preview = document.querySelector('#formPreview'),
+          photo = document.querySelector('.file__input'),
+          btn = document.querySelector('#button'),
+          list = document.querySelector('.posts');
+
+    btn.addEventListener('click', () => {
+        return (
+            list.innerHTML += `
+            <li class="post">
+                <h4 class="post__title">${title.value}</h4>
+                <h3 class="post__subtitle">${preview.value}</h3>
+                <img src="${photo.file}" alt="" class="post__photo" width="300">
+            </li>   
+            `
+        );
+    });
+
+    
 });
