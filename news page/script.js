@@ -53,6 +53,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    async function getResponse() {
+        let response = await fetch('./posts.json');
+        let content = await response.json();
 
+        let list = document.querySelector('.posts');
 
+        let key;
+        for (key in content) {
+            list.innerHTML += `
+            <li class="post">
+                <h4 class="post__title">${content[key].news}</h4>
+                <h3 class="post__subtitle">${content[key].preview}</h3>
+                <img src="${content[key].url}" alt="" class="post__photo" width="300">
+            </li>   
+            `
+
+        }
+    }
+    getResponse();
 });

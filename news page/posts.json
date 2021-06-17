@@ -1,0 +1,25 @@
+[
+    {
+        "news" : "football",
+        "preview" : "Spain win",
+        "url" : "https://s.hdnux.com/photos/13/77/63/3144936/3/1200x0.jpg"
+    },
+
+    {
+        "news" : "tennis",
+        "preview" : "Nadal lost",
+        "url" : "http://media.zenfs.com/en_us/News/ap_webfeeds/1954c1ca382ab50f510f6a706700d429.jpg"
+    },
+
+    {
+        "news" : "hockey",
+        "preview" : "Russia 6:0 Canada",
+        "url" : "https://static.life.ru/posts/2018/08/1143540/7b44cc8a217dcbd160aae36c0f7a5e28.jpg"
+    },
+
+    {
+        "news" : "snooker",
+        "preview" : "Ronnie six-time world champion!",
+        "url" : "https://www.thesun.ie/wp-content/uploads/sites/3/2016/11/3016378.main_image.jpg?strip=all"
+    }
+]
